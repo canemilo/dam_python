@@ -1,0 +1,105 @@
+
+personajes_frieren = [
+{
+"nombre": "Frieren",
+"raza": "Elfo",
+"clase": "Mago",
+"edad": 1000,
+"afiliacion": ["Grupo de los Cuatro Héroes", "Grupo de Frieren"]
+},
+{
+"nombre": "Himmel",
+"raza": "Humano",
+"clase": "Héroe",
+"edad": 76,
+"afiliacion": ["Grupo de los Cuatro Héroes"]
+},
+{
+"nombre": "Fern",
+"raza": "Humano",
+"clase": "Mago",
+"edad": 19,
+"afiliacion": ["Grupo de Frieren", "Magos de Primera Clase"]
+},
+
+{
+"nombre": "Stark",
+"raza": "Humano",
+"clase": "Guerrero",
+"edad": 18,
+"afiliacion": ["Grupo de Frieren"]
+},
+{
+"nombre": "Heiter",
+"raza": "Humano",
+"clase": "Sacerdote",
+"edad": 100,
+"afiliacion": ["Grupo de los Cuatro Héroes"]
+},
+{
+"nombre": "Eisen",
+"raza": "Enano",
+"clase": "Guerrero",
+"edad": 120,
+"afiliacion": ["Grupo de los Cuatro Héroes"]
+},
+{
+"nombre": "Sein",
+"raza": "Humano",
+"clase": "Sacerdote",
+"edad": 28,
+"afiliacion": ["Grupo de Frieren"]
+},
+{
+"nombre": "Ubel",
+"raza": "Humano",
+"clase": "Mago",
+"edad": 19,
+"afiliacion": ["Magos de Primera Clase"]
+},
+{
+"nombre": "Aura la Guillotina",
+"raza": "Demonio",
+"clase": "Mago",
+"edad": 500,
+"afiliacion": ["Siete Sabios de la Destrucción"]
+},
+{
+"nombre": "Denken",
+"raza": "Humano",
+"clase": "Mago",
+"edad": 78,
+"afiliacion": ["Magos de Primera Clase", "Asociación Continental de Magia"]
+
+},
+{
+"nombre": "Serie",
+"raza": "Elfo",
+"clase": "Mago",
+"edad": 2000,
+"afiliacion": ["Asociación Continental de Magia"]
+},
+{
+"nombre": "Sense",
+"raza": "Humano",
+"clase": "Mago",
+"edad": 28,
+"afiliacion": ["Magos de Primera Clase", "Asociación Continental de Magia"]
+}
+]
+
+
+
+
+
+print('8. Muestra la edad media de los personajes humanos.')
+
+
+# Filtrar las edades de los personajes cuya raza sea 'Humano'
+edades_humanos = [p["edad"] for p in personajes_frieren if p["raza"] == "Humano"]           
+
+
+# Calcular la media
+edad_media = sum(edades_humanos) / len(edades_humanos)
+
+print(f"8. La edad media de los personajes humanos es: {edad_media}")
