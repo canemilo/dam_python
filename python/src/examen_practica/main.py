@@ -1,17 +1,25 @@
-from dragon_ball import ejercicio1,ejercicio2,ejercicio3,ejercicio4,ejercicio5,ejercicio6
-
+from dragon_ball2 import ej1,ej2,ej3,ej4,ej5,ej6
 if __name__ == '__main__':
-    ejercicio1()
+    #ejercicio1()
+    ej1()
     print("-------------- ")
-    ejercicio2()
+    #ejercicio2()
+    ej2()
     print("-------------- ")
-    ejercicio3()
+    #ejercicio3()
+    ej3()
     print("-------------- ")
-    ejercicio4()
+    #ejercicio4()
+    ej4()
     print("-------------- ")
-    ejercicio5()
+    #ejercicio5()
+    ej5()
     print("-------------- ")
-    ejercicio6()
+    #ejercicio6()
+    ej6()
     print("-------------- ")
+    
+    
+    
     
     
