@@ -10,6 +10,6 @@ videojuegos = [
 
 
 for videojuego in videojuegos:
-    if videojuego["precio"] >= 10:
+    if videojuego["precio"] >= 20:
         print(videojuego)
 
